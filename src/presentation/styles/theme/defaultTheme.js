@@ -1,0 +1,77 @@
+import { colors, utilsColors, radius } from '../variables/defaultVariables';
+
+export const defaultTheme = {
+  colors: {
+    primary: {
+      main: colors.primary.main,
+      light: colors.primary.light,
+      'light-50': colors.primary['light-50'],
+      dark: colors.primary.dark,
+      'dark-50': colors.primary['dark-50'],
+    },
+    secondary: {
+      main: colors.secondary.main,
+      light: colors.secondary.light,
+      'light-50': colors.secondary['light-50'],
+      dark: colors.secondary.dark,
+      'dark-50': colors.secondary['dark-50'],
+      rgb: colors.secondary.rgb,
+    },
+    third: {
+      main: colors.third.main,
+      light: colors.third.light,
+      'light-50': colors.third['light-50'],
+      dark: colors.third.dark,
+      'dark-50': colors.third['dark-50'],
+    },
+    info: {
+      main: colors.info.main,
+      light: colors.info.light,
+      'light-50': colors.info['light-50'],
+      dark: colors.info.dark,
+      'dark-50': colors.info['dark-50'],
+    },
+    success: {
+      main: colors.success.main,
+      light: colors.success.light,
+      'light-50': colors.success['light-50'],
+      dark: colors.success.dark,
+      'dark-50': colors.success['dark-50'],
+    },
+    danger: {
+      main: colors.danger.main,
+      light: colors.danger.light,
+      'light-50': colors.danger['light-50'],
+      dark: colors.danger.dark,
+      'dark-50': colors.danger['dark-50'],
+    },
+    warning: {
+      main: colors.warning.main,
+      light: colors.warning.light,
+      'light-50': colors.warning['light-50'],
+      dark: colors.warning.dark,
+      'dark-50': colors.warning['dark-50'],
+    },
+    body: colors.body,
+    bodyGray: colors.bodyGray,
+    white: colors.white,
+    dark: colors.dark,
+    'dark-50': colors['dark-50'],
+    gray: colors.grey,
+    'gray-50': colors['gray-50'],
+    'gray-25': colors['gray-25'],
+    grey: colors.grey,
+  },
+  utilsColors: {
+    verified: utilsColors.verified,
+    starRate: utilsColors.starRate,
+    favourite: utilsColors.favourite,
+  },
+  radius: {
+    xl: radius.xl,
+    lg: radius.lg,
+    md: radius.md,
+    sm: radius.sm,
+    xs: radius.xs,
+  },
+};
